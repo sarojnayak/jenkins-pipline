@@ -6,6 +6,5 @@ node {
     	dir("comtest") {
 	   sh "mvn clean install"
        }
-
-}
+  }
 }
