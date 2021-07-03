@@ -1,6 +1,6 @@
 node {
 	stage ('SCM checkout'){
-		git "https://github.com/sarojnayak/jenkins-pipline"
+		git "https://gitlab.com/mbabilo/experitest"
 		}
 	stage ('Build'){
     	dir("comtest") {
